@@ -1,15 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transational//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transational.dtd">
-<html xmlns="http://w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--[if gte mso 9
+      ]><xml
+        ><o:OfficeDocumentSettings
+          ><o:AllowPNG /><o:PixelsPerInch
+            >96</o:PixelsPerInch
+          ></o:OfficeDocumentSettings
+        ></xml
+      >
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="format-detection" content="telephone=no" />
     <title>Litmus Newsletter</title>
 
     <style type="text/css">
       /* GENERAL STYLE RESETS */
-      body,
+      body {
+        margin: 0px;
+      }
       #bodyTable {
         height: 100% !important;
-        width: 700px !important;
+        width: 700px;
         margin: 0 auto;
         padding: 0 !important;
         font-family: sans-serif;
@@ -34,10 +52,28 @@
         border-collapse: collapse;
         vertical-align: top;
       }
+
       /* Mobile  */
-      @media screen and (max-width: 600px) {
+      @media only screen and (max-width: 680px) {
         #bodyTable {
-          width: 320px !important;
+          width: 100% !important;
+          margin: 0px !important;
+        }
+        p,
+        h3 {
+          font-size: 28px !important;
+        }
+        #calendar,
+        #bandaid,
+        #syringe {
+          vertical-align: middle !important;
+        }
+        #img-calendar,
+        #img-bandaid,
+        #img-syringe {
+          margin-right: 20px;
+          width: 170px !important;
+          margin-left: 50px;
         }
       }
     </style>
@@ -59,6 +95,10 @@
               </td>
             </tr>
           </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <table style="margin: 10px auto 0">
             <tr>
               <td>
@@ -180,13 +220,18 @@
               </td>
             </tr>
           </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <table>
             <tr>
-              <td>
+              <td id="calendar">
                 <img
                   src="calendar.png"
                   alt=""
                   style="margin-top: 45px; margin-left: 60px"
+                  id="img-calendar"
                 />
               </td>
               <td style="vertical-align: middle">
@@ -198,11 +243,12 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td id="syringe">
                 <img
                   src="syringe.png"
                   alt=""
                   style="margin-top: 20px; margin-left: 60px"
+                  id="img-syringe"
                 />
               </td>
               <td style="vertical-align: middle">
@@ -214,11 +260,12 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td id="bandaid">
                 <img
                   src="bandaid.png"
                   alt=""
                   style="margin-top: 20px; margin-left: 60px"
+                  id="img-bandaid"
                 />
               </td>
               <td style="vertical-align: middle">
@@ -266,11 +313,15 @@
               </td>
             </tr>
           </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <table>
             <tr>
               <td>
                 <h3 style="color: #595959; margin: 25px 70px 0">
-                  IMPORTANT SAFETY INFORMATION(CONTINUED)
+                  IMPORTANT SAFETY INFORMATION (CONTINUED)
                 </h3>
               </td>
             </tr>
@@ -352,6 +403,10 @@
               </td>
             </tr>
           </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <table style="width: 100%; background-color: #e9e9e9">
             <tr>
               <td>
